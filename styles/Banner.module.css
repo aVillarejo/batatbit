@@ -1,0 +1,26 @@
+.banner {
+  z-index: 0;
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: 50vh;
+  /* background: url('/assets/img/bitcoinbaby2x.jpg') no-repeat center/cover; */
+  /*
+  shorthand for
+    background-image: url('/assets/img/bitcoinbaby2x.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  */
+  /* Parallax effect: background-attachment: fixed; */
+  text-align: center;
+}
+
+.banner h2 {
+  padding-top: 64px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--color-light);
+  z-index: 1;
+}

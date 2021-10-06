@@ -1,0 +1,98 @@
+.section_container {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 0 16px 20px;
+  background: var(--color-dark);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section_container > .batata_logo {
+  position: absolute;
+  top: -12px;
+  width: 40px;
+  height: 24px;
+  background: url('/assets/icons/batata.svg') no-repeat center;
+  background-size: cover;
+}
+.section_title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin-top: 60px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+.section_title h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--color-light);
+  margin-bottom: 24px;
+}
+
+.section_title p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+}
+
+.cards_container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  justify-content: space-evenly;
+  gap: 16px;
+}
+.card {
+  background: var(--color-dark-warm);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  margin-bottom: 16px;
+  padding: 16px 16px 22px;
+  min-width: 288px;
+  max-width: 400px;
+  min-height: 150px;
+  flex: 1 1 345px;
+}
+.card__title {
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  color: var(--color-light);
+  margin-bottom: 10px;
+}
+
+.card__description {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #808080;
+}
+
+.card__icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+.clock {
+  background-image: url('/assets/icons/clock.svg');
+}
+.eye {
+  background-image: url('/assets/icons/eye.svg');
+}
+.dollar {
+  background-image: url('/assets/icons/dollar.svg');
+}
+.check_circle {
+  background-image: url('/assets/icons/check-circle.svg');
+}

@@ -1,0 +1,49 @@
+.footer {
+  min-height: 150px;
+  display: flex;
+  background-color: var(--color-primary);
+}
+
+.footer > section {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.footer__links ul {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  list-style: none;
+}
+.footer__links li {
+  margin: 10px 0;
+}
+.footer__links a {
+  color: var(--color-light);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer__brand {
+  position: relative;
+  flex-direction: column;
+}
+
+.footer__brand > figure {
+  position: relative;
+  width: 48px;
+  height: 24px;
+  margin-bottom: 8px;
+}
+.batata_logo {
+  object-fit: cover;
+  object-position: center;
+  background-repeat: no-repeat;
+}
+.footer__brand > p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--color-primary-soft);
+}

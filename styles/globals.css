@@ -1,9 +1,45 @@
-html,
-body {
+:root {
+  /* Primary and Secondary */
+  --bitcoin-orange: #f7931a;
+  --soft-orange: #ffe9d5;
+  --secondary-blue: #1a9af7;
+  --soft-blue: #e7f5ff;
+  /* Dark colors */
+  --black: #201e1c;
+  --warm-black: #282623;
+  /* Light colors */
+  --just-white: #fff;
+  --grey: #bababa;
+  --off-white: #faf8f7;
+
+  /* Primary and Secondary */
+  --color-primary: #f7931a;
+  --color-primary-soft: #ffe9d5;
+  --color-secondary: #1a9af7;
+  --color-secondary-soft: #e7f5ff;
+  /* Dark colors */
+  --color-dark: #201e1c;
+  --color-dark-warm: #282623;
+
+  /* Light colors */
+  --color-light: #fff;
+  --color-light-darker: #bababa;
+  --color-light-darker-2: #757575;
+  --color-light-darker-2: #808080;
+  --color-background: #faf8f7;
+}
+
+* {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+html {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
 a {
@@ -11,6 +47,8 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 80%;
+  }
 }
